@@ -16,7 +16,7 @@ export class LoanController implements OnModuleInit {
         this.loanService = this.client.getService('LoanService');
     }
 
-    @Get(':id')
+    @Get('loan/:id')
     @ApiOperation({
         summary: 'Get Loan by Id',
         parameters: [
