@@ -26,5 +26,6 @@ curl -H 'application/json' http://localhost:3000/api/v1/loan/F422B567
 curl -H 'application/json' http://localhost:3000/api/v1/loans/default?year=2018
 curl -H 'application/json' http://localhost:3000/api/v1/loans/default-exchanged?year=2017
 curl -H 'application/json' http://localhost:3000/api/v1/loans/distribution?startDate=01/01/2015&endDate=01/01/2018
+# Possible filter types for the moment are: education, age, maritalStatus and job
 curl -H 'application/json' http://localhost:3000/api/v1/loans/filter?filterType=education&value=tertiary
 ```
